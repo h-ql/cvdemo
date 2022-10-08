@@ -8,29 +8,40 @@
     <title>Page</title>
     <link rel="icon" href="img/whiteTIGERavatar.png" type="image/x-icon">
 
-
-
+    
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <style>
-        /* unvisited link */
+      
         a:link {
             color: white;
             text-decoration: none;
         }
-
-        /* visited link */
         a:visited {
-            color: green;
+            color: rgb(177, 177, 177);
         }
-
-        /* mouse over link */
         a:hover {
             color: blue;
         }
+        
+        .fa-file-pdf {
+            color: brown;
+        }
+        .fa-file-pdf:hover {
+            color: black
+        }
+
+        /* .btn {
+            color: red;
+        }
+        .btn:hover {
+            color: blue;
+        } */
+
     </style>
 </head>
 
@@ -38,54 +49,96 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 bg-dark text-white text-center py-4">
+            <div class="col-lg-4 bg-dark bg-opacity-50 text-white text-center py-4">
                 <div class="header-left">
-                    <img src="img/babyone.jpg" alt="" class="img-thumbnail rounded-circle mb-2">
-                    <h1 class="display-5">Mama Mia</h1>
-                    <h4 class="lead text-uppercase text-white-50 mb-4">Dreamer</h4>
+                    <!-- <img src="img/babyone.jpg" alt="" class="img-thumbnail rounded-circle mb-2"> -->
+                    
+                    
+                    <h1 class="display-5">Trần Khánh Doanh</h1>
+                    <h2 class="lead text-white-70 mb-4">Copium</h2>
                 </div>
                 <div>
-                    <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">Contact</h5>
+                    <h5 class=" bg-white text-dark py-2 rounded-1">Contact</h5>
 
                     <ul class="list-unstyled text-white-60 ml-5 py-2 text-left">
                         <li class="list-item">
-                            <i class="bi bi-phone-vibrate mx-1"></i>
-                            +84919328060
+                            <i class="fa-solid fa-location-dot fa-xs"></i>
+                            Ha Noi                          
                         </li>
                         <li class="list-item">
-                            <i class="bi bi-envelope-open-fill mx-1"></i>
-                            admirallqh@gmail.com
+                            <i class="fa-solid fa-envelope fa-xs"></i>
+                          <a href="mailto:admirallqh@gmail.com">admirallqh@gmail.com</a>  
                         </li>
                         <li class="list-item">
-                            <i class="bi bi-github mx-1"></i>
+                            <i class="fa-brands fa-github fa-xs"></i>
                             <a href="https://github.com/h-ql" target=”_blank”>https://github.com/h-ql</a>
                         </li>
+                        <li class="list-item">
+                            <i class="fa-solid fa-phone fa-xs"></i>
+                            Zalo: <a href="tel:+84919328060">+8491 9328 060</a>
+                        </li>
                     </ul>
                 </div>
-
+                <!-- <i class="fa-solid fa-arrow-up fa-2xs"></i> -->
                 <div>
-                    <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">Skill</h5>
-                    <ul class="list-unstyled text-white-50 ml-5 py-2 text-left text-capitalize">
-                        <li class="list-item">ASP.NET 6 (MVC,Razor...)</li>
-                        <li class="list-item">C#, HTML, CSS</li>
-                        <li class="list-item">MSSQL, SQLite, RavenDB</li>
+                    <!-- <h5 class="bg-white text-dark py-2 rounded-1">.NET Core <span>&#8805;</span> 6.0</h5> -->
+                    <h5 class="bg-white text-dark py-2 rounded-1">Languages</h5>
+                    <ul class="list-unstyled text-white ml-5 py-2 text-left">
+                        
+                        <li class="list-item">C# </li>
+                        <li class="list-item">HTML, CSS</li>
+                        <li class="list-item">Javascript</li>
+                        <li class="list-item">T-SQL</li>
                     </ul>
                 </div>
-
                 <div>
-                    <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">additionals</h5>
-                    <ul class="list-unstyled text-white-50 ml-5 py-2 text-left text-capitalize">
-                        <li class="list-item">Terminal, Git, Github</li>
-                        <li class="list-item">Azure, CI-CD, ...</li>
-                        <li class="list-item">Okay</li>
+                    <h5 class="bg-white text-dark py-2 rounded-1">Framework</h5>
+                    <ul class="list-unstyled text-white ml-5 py-2 text-left">
+                        <li class="list-item">ASP MVC, Razor</li>
+                        <li class="list-item">EF Core</li>
+                        <li class="list-item">Azure </li>
+                        <li class="list-item">Basic Agile: Scrum, Kaban</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="bg-white text-dark py-2 rounded-1">Database</h5>
+                    <ul class="list-unstyled text-white ml-5 py-2 text-left">
+                        <li class="list-item">MSSQL</li>
+                        <li class="list-item">SQLite</li>
+                        <li class="list-item">Postgresql</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="bg-white text-dark py-2 rounded-1">Tools</h5>
+                    <ul class="list-unstyled text-white ml-5 py-2 text-left">
+                        <li class="list-item">.NET CLI</li>
+                        <li class="list-item">Git, Github</li>
+                        <li class="list-item">CI-CD Workflows</li>
+                        <li class="list-item">Visual Studio</li>
+                        <li class="list-item">DBMS</li>
+                        <li class="list-item">Jira</li>
+
                     </ul>
                 </div>
 
             </div>
             <div class="col-lg-8 bg-light text-dark py-4 px-5">
+                
+                <!-- <div class="dwl float-end">
+                    <a href="" class="button position-relative" download>
+                        <i class="fa-regular fa-file-pdf fa-2x"></i>
+                    </a>
+                </div> -->
+                <div class="btn btn-outline-danger float-end">
+                    <a href="img/CVName.pdf" download>
+                        <i class="fa-regular fa-file-pdf fa-2x"></i>
+                    </a>
+                </div>
+                <br>
                 <div class="header-right">
+                    
                     <h4 class="text-uppercase">Shortcut</h4>
-                    <hr>
+                    <hr>                  
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius cupiditate maxime nisi nobis
                         eligendi rerum alias ratione tenetur, eaque adipisci id amet numquam vel voluptas! Unde ea
                         perferendis impedit qui dolores placeat, voluptatem id, adipisci accusamus similique vero
